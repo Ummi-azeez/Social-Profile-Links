@@ -1,0 +1,74 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card Styles */
+.card {
+    background-color: #1e1e1e;
+    padding: 20px 30px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Image */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+/* Name and Location */
+h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.location {
+    color: #8bc34a;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Bio */
+.bio {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #c1c1c1;
+    margin-bottom: 20px;
+}
+
+/* Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #444444;
+}
